@@ -34,6 +34,7 @@ h1, h2, h3, blockquote {
   font-family: elevon, sans-serif;
   font-weight: 700;
   font-style: normal;
+  width: fit-content;
 }
 
 canvas {
@@ -72,8 +73,13 @@ canvas {
     color: black;
     background-color: white;
     font-size: 4rem;
-    display: inline;
+    display: block;
     line-height: 1;
+    width: 100%;
+  }
+
+  .cc {
+    background-color: transparent;
   }
 
   .left {
